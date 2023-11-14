@@ -1,0 +1,91 @@
+:root {
+  /* Define CSS variables for colors */
+  --border-color: #00aaff;
+  --text-color: #333;
+  --available-color: #e0f7fa;
+  --booked-color: #ffcdd2;
+  --error-color: #f44336;
+  --selected-color: #b2ebf2;
+  --highlight-color: #00bcd4;
+  --button-color: #00bcd4;
+  /* Base font size */
+  font-size: 16px; /* Standard browser font size is usually 16px */
+}
+
+.parking-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 0.625rem; /* 10px converted to rem */
+  padding: 0.625rem 0; /* 10px converted to rem */
+  max-width: 50rem;
+  margin: 0 auto;
+  font-size: 1.25rem;
+}
+
+.parking-spot {
+  transition: all 0.35s ease;
+  border: 2px dashed var(--border-color);
+  padding: 0.625rem; /* 10px converted to rem */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  text-transform: uppercase;
+  font-weight: bold;
+  color: var(--text-color);
+  /* Rectangle shape dimensions */
+  width: auto; /* 100px converted to rem */
+  height: 6.25rem; /* 300px converted to rem */
+}
+
+.parking-spot.available {
+  cursor: pointer;
+  background-color: var(--available-color);
+}
+
+.parking-spot.booked {
+  cursor: not-allowed;
+  background-color: var(--booked-color);
+  border-color: var(--error-color);
+}
+
+.parking-spot.selected {
+  background-color: var(--selected-color);
+  border-color: var(--highlight-color);
+}
+
+.parking-spot img {
+  width: auto; /* Adjust as needed, could be 100% */
+  max-height: 95%; /* Adjust the image size relative to the parking spot height */
+  max-width: 100%;
+  pointer-events: none;
+}
+
+.parking-spot button {
+  position: absolute;
+  bottom: 0.525rem; /* 10px converted to rem */
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 0.3125rem 0.9375rem; /* 5px and 15px converted to rem */
+  background-color: var(--button-color);
+  border: none;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 1.25rem;
+}
+
+/* Responsive adjustments */
+@media (max-width: 62rem) {
+  /* 992px converted to rem */
+  .parking-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 48rem) {
+  /* 768px converted to rem */
+  .parking-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}

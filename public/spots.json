@@ -1,0 +1,242 @@
+[
+  {
+    "id": "A-1",
+    "status": "booked"
+  },
+  {
+    "id": "A-2",
+    "status": "booked"
+  },
+  {
+    "id": "A-3",
+    "status": "booked"
+  },
+  {
+    "id": "A-4",
+    "status": "booked"
+  },
+  {
+    "id": "A-5",
+    "status": "available"
+  },
+  {
+    "id": "A-6",
+    "status": "available"
+  },
+  {
+    "id": "A-7",
+    "status": "booked"
+  },
+  {
+    "id": "A-8",
+    "status": "booked"
+  },
+  {
+    "id": "A-9",
+    "status": "booked"
+  },
+  {
+    "id": "A-10",
+    "status": "booked"
+  },
+  {
+    "id": "A-11",
+    "status": "booked"
+  },
+  {
+    "id": "A-12",
+    "status": "booked"
+  },
+  {
+    "id": "A-13",
+    "status": "available"
+  },
+  {
+    "id": "A-14",
+    "status": "booked"
+  },
+  {
+    "id": "A-15",
+    "status": "booked"
+  },
+  {
+    "id": "A-16",
+    "status": "booked"
+  },
+  {
+    "id": "A-17",
+    "status": "available"
+  },
+  {
+    "id": "A-18",
+    "status": "available"
+  },
+  {
+    "id": "A-19",
+    "status": "available"
+  },
+  {
+    "id": "A-20",
+    "status": "available"
+  },
+  {
+    "id": "A-21",
+    "status": "available"
+  },
+  {
+    "id": "A-22",
+    "status": "available"
+  },
+  {
+    "id": "A-23",
+    "status": "available"
+  },
+  {
+    "id": "A-24",
+    "status": "booked"
+  },
+  {
+    "id": "A-25",
+    "status": "available"
+  },
+  {
+    "id": "A-26",
+    "status": "booked"
+  },
+  {
+    "id": "A-27",
+    "status": "available"
+  },
+  {
+    "id": "A-28",
+    "status": "available"
+  },
+  {
+    "id": "A-29",
+    "status": "booked"
+  },
+  {
+    "id": "A-30",
+    "status": "booked"
+  },
+  {
+    "id": "A-31",
+    "status": "booked"
+  },
+  {
+    "id": "A-32",
+    "status": "booked"
+  },
+  {
+    "id": "A-33",
+    "status": "available"
+  },
+  {
+    "id": "A-34",
+    "status": "available"
+  },
+  {
+    "id": "A-35",
+    "status": "booked"
+  },
+  {
+    "id": "A-36",
+    "status": "booked"
+  },
+  {
+    "id": "A-37",
+    "status": "available"
+  },
+  {
+    "id": "A-38",
+    "status": "available"
+  },
+  {
+    "id": "A-39",
+    "status": "available"
+  },
+  {
+    "id": "A-40",
+    "status": "available"
+  },
+  {
+    "id": "A-41",
+    "status": "available"
+  },
+  {
+    "id": "A-42",
+    "status": "booked"
+  },
+  {
+    "id": "A-43",
+    "status": "available"
+  },
+  {
+    "id": "A-44",
+    "status": "booked"
+  },
+  {
+    "id": "A-45",
+    "status": "available"
+  },
+  {
+    "id": "A-46",
+    "status": "available"
+  },
+  {
+    "id": "A-47",
+    "status": "available"
+  },
+  {
+    "id": "A-48",
+    "status": "available"
+  },
+  {
+    "id": "A-49",
+    "status": "booked"
+  },
+  {
+    "id": "A-50",
+    "status": "available"
+  },
+  {
+    "id": "A-51",
+    "status": "available"
+  },
+  {
+    "id": "A-52",
+    "status": "booked"
+  },
+  {
+    "id": "A-53",
+    "status": "available"
+  },
+  {
+    "id": "A-54",
+    "status": "available"
+  },
+  {
+    "id": "A-55",
+    "status": "booked"
+  },
+  {
+    "id": "A-56",
+    "status": "booked"
+  },
+  {
+    "id": "A-57",
+    "status": "booked"
+  },
+  {
+    "id": "A-58",
+    "status": "available"
+  },
+  {
+    "id": "A-59",
+    "status": "available"
+  },
+  {
+    "id": "A-60",
+    "status": "available"
+  }
+]

@@ -1,7 +1,12 @@
 import React from "react";
+import CarParkInterface from "./CarParkInterface";
 
 const HomePage = () => {
-  return <div>HomePage</div>;
+  return (
+    <>
+      <CarParkInterface />
+    </>
+  );
 };
 
 export default HomePage;
